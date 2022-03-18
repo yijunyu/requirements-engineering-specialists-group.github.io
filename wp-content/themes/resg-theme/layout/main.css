@@ -1,0 +1,113 @@
+body { background-color: #999; font-size: 13px; font-family: Arial; margin-top: 20px; overflow-y: scroll; }
+img { float:left; margin-right: 10px; margin-bottom: 5px; border:1px solid black;}
+table { border-collapse: collapse; }
+td { padding: 0; }
+.wp-caption { float:left; margin-right: 15px; font-size: 13px; margin-top: 5px;}
+.wp-caption-text { font-style: italic; text-align: center;overflow: hidden; padding-right: 10px; }
+
+
+#archives {font-family: Calibri;font-size: 13px;line-height: 19.6px;font-style:italic; padding-bottom:20px;}
+.re-post-content .wp-caption { padding-right: 0px; }
+.re-post-content .wp-caption {float:right; margin-left: 25px; font-size: 13px; margin-right: 0px; margin-top: 5px;}
+.re-post-content img {float:right;  margin-left: 20px; margin-right: 0px; margin-bottom: 10px;}
+.re-article img{ max-width:200px;height: auto;}
+.re-article .wp-caption{ max-width:200px;height: auto;}
+.re-article-content img{ max-width:200px;height: auto;}
+.re-article-content .wp-caption{ max-width:200px;height: auto;}
+a:link { text-decoration: none; color: #004416; }
+a:hover { text-decoration: underline; }
+a:visited { color: #004416; }
+
+h1 { color: #004416; font-size: 1.4em; border-bottom: solid 1px #004416; margin: 0 0 15px; padding: 0 0 3px 3px; }
+h2 { font-size: 1em; color: #333; margin-bottom: 5px; }
+h3 { font-size: 18px; color: #333; margin-top: 30px; }
+h6 {font-weight: normal;  font-size: 15px; margin-left: 15px; width: 600px}
+address {margin-bottom: 20px;  margin-top: 3px; color: #333; }
+
+a.more-link { display: block; margin-top: -5px; font-size: 0.9em; font-weight: bold; }
+h3#comments { border-top: dotted 1px #777; color: #333; font-size: 0.9em; padding-top: 5px; }
+#respond h3 { font-size: 1em; color: #333; }
+img.bcs-logo { border: none; } 
+
+a.simple-footnote {margin-left: -4px; font-size: 13px}
+div.simple-footnotes {font-size: 13px}
+
+.re-article div.simple-footnotes {display: none;}
+.re-article h6 {display: none;}
+
+.re-content-outer-wrapper { width: 900px; margin: 0 auto; }
+.re-content-inner-wrapper { padding: 15px 15px 17px; }
+.re-content-inner-wrapper-thicker { padding: 30px; font-family: Calibri; font-size: 15px; line-height: 19.6px; }
+.re-content { background-color: #fff; -webkit-box-shadow: 0px 0px 5px #222; margin-top: 10px; }
+
+.re-content-inner-wrapper, .re-content-inner-wrapper-thicker {-moz-box-shadow: 10px 10px 5px #888;-webkit-box-shadow: 10px 10px 5px #888;box-shadow: 10px 10px 5px #888;}
+
+.re-page-content { font-size: 1em; line-height: 1.3em; }
+
+.re-upper-header {  }
+.re-lower-header { padding-top: 15px; }
+
+#re-logo {border: none; margin: 5px 0 0 7px; }
+#re-main-menu { float: right; }
+#re-title { width: 400px; padding: 10px; }
+#re-about { line-height: 1.3em; font-size: 15px; color: #333; }
+#re-join-content { padding: 25px 0 0 150px; }
+#re-banner { border: solid 1px #999; float: right; height: 140px; background-color: #ddd; padding: 7px; width: 430px; margin-left: 15px; }
+#re-banner img{border: none; margin: 0 0 0 0;}
+
+.re-menu-item-wrapper { border-right: solid 1px #999; float: left; }
+.re-menu-item-wrapper-last { float: left; }
+a.re-menu-item { display: block; margin: 0 10px; padding: 7px; width: 105px; cursor: pointer; }
+a.re-menu-item:hover { background-color: #eee; text-decoration: none; }
+a.re-menu-item .re-menu-item-header { font-size: 1.2em; margin-bottom: 5px; font-weight: bold; color: #004416; }
+a.re-menu-item .re-menu-item-description { font-size: .9em; color: #333; }
+
+a#re-join-button { float: left; display: block; background-image: url('../images/button_background.png'); padding: 10px 12px 8px; text-decoration: none; font-size: 16px; font-weight: bold; color: #fff; border: solid 1px #004416; background-repeat: repeat-x; }
+
+/* General Section styling */
+.re-section { background-color: #fff; padding: 0 0 15px; border: solid 1px #004416; margin-bottom: 20px; }
+.re-section-heading { background-color: #71ab57; color: #fff; margin-bottom: 0px; padding: 4px 9px; border-top: solid 1px #98c286; border-bottom: solid 1px #004416; }
+.re-section-heading a:link { font-size: 1.1em; font-weight: bold; color: #fff; text-decoration: none; }
+.re-section-heading a:hover { text-decoration: none; }
+.re-section-heading a:visited { color: #fff; }
+.re-section-content { padding: 0 12px; }
+
+/* Event Section styling */
+.re-date-cell { padding-top: 5px; color: #666; text-align: right; width: 80px; vertical-align: top; margin: 0 10px; font-size: 0.8em; }
+.re-events-title { padding: 5px 0 0 10px; font-size: 0.9em; }
+.re-events-title a:link { color: #000000; text-decoration: none; }
+.re-events-title a:hover { text-decoration: underline; }
+.re-events-title a:visited { color: #000000; }
+
+/* Article Section styling */
+.re-articles-title { margin-top: 15px; font-weight: bold; margin-bottom: 10px; }
+.re-articles-header { font-size: 0.9em; line-height: 1.3em; }
+.re-articles-title a:link { color: #333; text-decoration: none; }
+.re-articles-title a:hover { text-decoration: underline; }
+.re-articles-title a:visited { color: #333; }
+.re-articles-date { color: #666; font-size: 0.8em; }
+
+.re-article { margin-top: 25px; }
+.re-article-title { border-bottom: 1px dashed #777; color: #333333; font-weight: bold; font-size: 1.3em; padding: 0 0 3px 3px; width:100%; padding-top: 2px}
+.re-article-title a:link { color: #333333; text-decoration: none; width:100% ;}
+.re-article-title a:visited { color: #333333; width:100% ;}
+.re-article-content { padding: 0px 3px; text-align: justify; padding-bottom:20px}
+
+.re-event-date { color: #777; }
+.re-event-title { padding-left: 10px; color: #333; font-weight: bold; }
+.re-event-title a:link { color: #333; }
+.re-event-title a:hover { text-decoration: underline; }
+.re-event-title a:visited { color: #333; }
+
+.re-post { padding: 10px 60px 5px 60px; text-align: justify; }
+.re-post-title-wrapper { border-bottom: 1px dashed #777; color: #333; padding: 0 0 6px 3px; }
+.re-post-title { color: #333; font-weight: bold; font-size: 1.7em; }
+.re-post-date { font-size: 1em; color: #777; float: right; padding-left: 20px}
+.re-post-content {padding: 10px 0 3px 3px; font-family: Calibri; font-size: 15px; line-height: 21px;}
+
+.re-event-date { padding-top: 10px; text-align: right; font-size: 0.9em; width: 90px; }
+.re-event-title { padding-top: 10px; font-size: 0.9em; }
+
+.aligncenter { text-align: center; width: 100%; }
+
+.register-button { text-decoration: none !important; color: #fff !important; float: left; display: block; background-image: url('../images/button_background.png'); padding: 8px 12px 8px; text-decoration: none; font-size: 16px; font-weight: bold; color: #fff; border: solid 1px #004416; background-repeat: repeat-x; }

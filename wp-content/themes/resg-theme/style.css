@@ -1,0 +1,16 @@
+/*   
+Theme Name: RESG Theme
+*/
+
+body { margin: 0px; padding: 0px; text-align: center; font-family: Arial; }
+
+#wrapper { width: 900px; margin: 0 auto; text-align: left; }
+#header { margin-top: 20px; }
+#logo-resg {  }
+#logo-bcs { margin-top: 5px; }
+#main-menu { float: right; }
+#info { clear: both; padding-top: 20px; }
+#description { width: 420px; }
+#banner { float: right; width: 450px; height: 100px; background-color: red; }
+
+#main {  }
